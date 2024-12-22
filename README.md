@@ -32,10 +32,7 @@
             text-decoration: none;
             margin: 0 1rem;
             font-size: 1.1rem;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
+            cursor: default;
         }
 
         .container {
@@ -102,9 +99,9 @@
         <p>Computer Science | Aspiring Software Developer</p>
     </header>
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a>About</a>
+        <a>Projects</a>
+        <a>Contact</a>
     </nav>
     <div class="container">
         <section id="about">
