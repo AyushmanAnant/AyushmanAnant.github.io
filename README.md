@@ -1,1 +1,166 @@
-# AyushmanAnant.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #0078d4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .profile-details {
+            max-width: 800px;
+        }
+
+        .profile-details h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayushman Anant</h1>
+        <p>Computer Science | Aspiring Software Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <div class="profile-details">
+                    <h2>Ayushman Anant</h2>
+                    <p>Mobile No: (240) 854 1248</p>
+                    <p>Email: <a href="mailto:ayushman.anant2006@gmail.com">ayushman.anant2006@gmail.com</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/ayushman-anant-936aa2247" target="_blank">www.linkedin.com/in/ayushman-anant-936aa2247</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>University of Maryland – College Park (MD)</strong></p>
+            <p>Bachelor Of Science in Computer Science</p>
+            <ul>
+                <li>Classes Taken: CMSC100-0101/INST101-0101, CMSC131, ENGL101X, ECON111, MATH141</li>
+                <li>Current GPA: 4.00</li>
+                <li>Expected Graduation: May 2027</li>
+            </ul>
+            <p><strong>Dubai International Academy, Emirates Hills – Dubai, U.A.E.</strong></p>
+            <p>International Baccalaureate Diploma Program – 39/45 points (28 college credits)</p>
+            <p>May 2022 – May 2024</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Programming Languages: Python, R, Java, HTML, JavaScript, CSS, and C++</p>
+        </section>
+        <section id="experience">
+            <h2>Programming Experience</h2>
+            <ul>
+                <li><strong>Sav Technologies Limited</strong> – Developed an interactive chatbot for 40,000+ users (June 2024 – August 2024)</li>
+                <li><strong>Sarsan Aviation Academy</strong> – Developed safety systems for aircraft using Arduino and C++ (August 2023)</li>
+                <li><strong>SinchAB</strong> – Job Shadowing with Head of MENA Region (May 2022)</li>
+                <li><strong>Personal Project</strong> – Conversational AI Chatbot Raising Mental Health Awareness (May 2024 – Present)</li>
+                <li><strong>HackAI Dell & Nvidia Challenge</strong> – Utilizing NVIDIA AI Workbench (Sept. 2024 – October 2024)</li>
+            </ul>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
+            <p>Led a team to develop IT systems for AIRBUS A380 and investigated methods to reduce carbon emissions.</p>
+        </section>
+        <section id="leadership">
+            <h2>Leadership</h2>
+            <p>Vice President of Public Relations – Dubai Gavel Club (April 2020 – April 2021)</p>
+            <p>Spearheaded a team of 20+ members, utilizing communication and leadership skills.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to reach out, feel free to email me at <a href="mailto:ayushman.anant2006@gmail.com">ayushman.anant2006@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ayushman Anant. Built with ❤️ for GitHub Pages.</p>
+    </footer>
+</body>
+</html>
